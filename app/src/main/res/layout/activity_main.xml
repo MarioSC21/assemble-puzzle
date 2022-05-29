@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/GridLayout"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:layout_gravity="fill"
+    android:layout_columnWeight="1"
+    android:layout_marginVertical="0dp"
+    >
+
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:layout_marginVertical="0dp"
+        android:src="@drawable/f1c1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:soundEffectsEnabled="true" android:id="@+id/f1c1" android:tag="f1c1"
+        android:onClick="puzzle_click" tools:ignore="SpeakableTextPresentCheck" android:contentDescription="ficha"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f1c2"
+        android:layout_row="0"
+        android:layout_column="1" android:id="@+id/f1c2" android:tag="f1c2" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f1c3"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:id="@+id/f1c3" android:tag="f1c3" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f1c4"
+        android:layout_row="0"
+        android:layout_column="3" android:id="@+id/f1c4" android:tag="f1c4" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <!-- -->
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f2c1"
+        android:layout_marginVertical="0dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="0dp" android:layout_marginLeft="0dp"
+        android:cropToPadding="false" android:id="@+id/f2c1" android:tag="f2c1" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:layout_marginRight="0dp" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f2c2"
+        android:layout_row="1"
+        android:layout_column="1" android:id="@+id/f2c2" android:tag="f2c2" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f2c3"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:id="@+id/f2c3" android:tag="f2c3" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f2c4"
+        android:layout_row="1"
+        android:layout_column="3" android:id="@+id/f2c4" android:tag="f2c4" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <!-- -->
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f3c1"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:id="@+id/f3c1" android:tag="f3c1" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f3c2"
+        android:layout_row="2"
+        android:layout_column="1" android:id="@+id/f3c2" android:tag="f3c2" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f3c3"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:id="@+id/f3c3" android:tag="f3c3" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f3c4"
+        android:layout_row="2"
+        android:layout_column="3" android:id="@+id/f3c4" android:tag="f3c4" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <!-- -->
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f4c1"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:id="@+id/f4c1" android:tag="f4c1" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f4c2"
+        android:layout_row="3"
+        android:layout_column="1" android:id="@+id/f4c2" android:tag="f4c2" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f4c3"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:id="@+id/f4c3" android:tag="f4c3" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <ImageView
+        android:layout_height="61dp"
+        android:layout_width="103dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/f4c4"
+        android:layout_row="3"
+        android:layout_column="3" android:id="@+id/f4c4" android:tag="f4c4" android:onClick="puzzle_click"
+        android:contentDescription="ficha" android:soundEffectsEnabled="true"/>
+    <!-- -->
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="0dp"
+        android:src="@drawable/alumnos"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:adjustViewBounds="true" android:soundEffectsEnabled="true" android:id="@+id/original"
+        android:foregroundGravity="center" android:onClick="original_click" android:contentDescription="completo"/>
+
+</GridLayout>
